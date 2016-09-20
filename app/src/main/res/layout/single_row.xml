@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp">
+
+    <ImageView
+        android:id="@+id/imageViewRecyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:src="@drawable/icon_rcv_1" />
+
+    <ImageView
+        android:id="@+id/starImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageViewRecyclerView"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/imageViewRecyclerView"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="-40dp"
+        android:src="@drawable/icon_star" />
+
+
+    <TextView
+        android:id="@+id/hoursTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageViewRecyclerView"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/imageViewRecyclerView"
+        android:layout_marginTop="-20dp"
+        android:gravity="center_vertical"
+        android:text="12hr 30 min" />
+
+    <TextView
+        android:id="@+id/textViewLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageViewRecyclerView"
+        android:layout_alignTop="@id/imageViewRecyclerView"
+        android:layout_marginTop="-20dp"
+        android:layout_toLeftOf="@+id/hoursTextView"
+        android:layout_toRightOf="@id/imageViewRecyclerView"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:text="sdfbdsbhfdsbjhdsfbjdsbfjhdsbjfbdjsbfhdns"
+        android:textSize="24dp" />
+
+
+    <TextView
+        android:id="@+id/textViewSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageViewRecyclerView"
+        android:layout_alignTop="@id/imageViewRecyclerView"
+        android:layout_marginBottom="-40dp"
+        android:layout_toRightOf="@id/imageViewRecyclerView"
+        android:layout_toLeftOf="@+id/starImageView"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:text="sdfbjhdsvfhjdsvjhdjsfgjhgkfskjgdsjghfjfdhfgjfdkjghkjdhgk" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/imageViewRecyclerView"
+        android:background="@color/colorPrimary"
+        ></View>
+
+
+</RelativeLayout>

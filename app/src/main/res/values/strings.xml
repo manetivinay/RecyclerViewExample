@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">RecyclerViewExample</string>
+    <string-array name="bigText">
+        <item>BAE</item>
+        <item>FaTH</item>
+        <item>IRL</item>
+        <item>TBH</item>
+        <item>OTP</item>
+        <item>DFTBA</item>
+        <item>RT</item>
+        <item>OAN</item>
+        <item>IMO or IMHO</item>
+        <item>DAE</item>
+    </string-array>
+
+    <string-array name="smallText">
+        <item>Before Anyone Else</item>
+        <item>First and Truest Husband</item>
+        <item>In Real Life</item>
+        <item>To Be Honest</item>
+        <item>One True Pairing</item>
+        <item>Don’t Forget To Be Awesome</item>
+        <item>Retweet</item>
+        <item>On Another Note</item>
+        <item>In My (Humble) Opinion</item>
+        <item>Does Anyone Else</item>
+    </string-array>
+</resources>
